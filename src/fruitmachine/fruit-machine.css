@@ -1,0 +1,80 @@
+.fruit-machine-container {
+    box-sizing:border-box;
+    margin:200px 0;
+    border:1px solid #aaa;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    max-height:630px;
+    overflow:hidden;
+}
+
+.wheel-outer {
+    background:white;
+    width:19%;
+    border-right:1px solid #aaa;
+}
+
+.fruit-part {
+    width:100%;
+}
+
+.fruit-part img {
+    max-width:100%;
+}
+
+@keyframes wheel-move-one {
+    0% {
+        transform:translate(0,-800px);
+    }
+    100% {
+        transform:translate(0,0);
+    }
+}
+@keyframes wheel-move-two {
+    0% {
+        transform:translate(0,-900px);
+    }
+    100% {
+        transform:translate(0,0);
+    }
+}
+@keyframes wheel-move-three {
+    0% {
+        transform:translate(0,-1000px);
+    }
+    100% {
+        transform:translate(0,0);
+    }
+}
+@keyframes wheel-move-four {
+    0% {
+        transform:translate(0,-1200px);
+    }
+    100% {
+        transform:translate(0,0);
+    }
+}
+@keyframes wheel-move-five {
+    0% {
+        transform:translate(0,-1500px);
+    }
+    100% {
+        transform:translate(0,0);
+    }
+}
+.animate-wheel-one {
+    animation: wheel-move-one 1s linear forwards;
+}
+.animate-wheel-two {
+    animation: wheel-move-two 1.5s linear forwards;
+}
+.animate-wheel-three {
+    animation: wheel-move-three 2.3s linear forwards;
+}
+.animate-wheel-four {
+    animation: wheel-move-four 2.8s linear forwards;
+}
+.animate-wheel-five {
+    animation: wheel-move-five 3.6s linear forwards;
+}

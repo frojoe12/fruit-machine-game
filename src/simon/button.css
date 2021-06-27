@@ -1,0 +1,30 @@
+.game-button {
+    width:150px;
+    height:150px;
+    border:none;
+    margin:20px;
+    cursor:pointer;
+    outline:none;
+}
+
+.color-button-red {
+    background:#df0546;
+}
+.color-button-green {
+    background:#0baa4d;
+}
+.color-button-yellow {
+    background:#ffe600;
+}
+.color-button-blue {
+    background:#003cff;
+}
+
+.button-on {
+    opacity:1;
+    border:none;
+}
+.button-off {
+    opacity:.5;
+    border:5px solid white;
+}
